@@ -16,7 +16,7 @@ document.getElementById('contactForm').addEventListener('submit', async (e)=>{
           message: document.getElementById('message').value
       };
 
-      const res = await fetch('http://localhost/portfolio/api/contact.php', {
+      const res = await fetch('https://aadehcreator.github.io/WebdesignerAdeshRajak/api/contact.php', {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify(data)
