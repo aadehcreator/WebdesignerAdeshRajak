@@ -1,0 +1,21 @@
+{
+  "info": { "name": "Portfolio Contact API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "item": [
+    {
+      "name": "Send Contact",
+      "request": {
+        "method": "POST",
+        "header": [{"key":"Content-Type","value":"application/json"}],
+        "body": {"mode":"raw","raw":"{\n \"name\": \"Aadesh Rajak\",\n \"email\": \"adeshrajak890@gmail.com\",\n \"phone\": \"8109585179\",\n \"message\": \"Portfolio API test\"\n}"},
+        "url": {"raw":"https://aadehcreator.github.io/portfolio/?","protocol":"http","host":["localhost"],"path":["portfolio","api","contact.php"]}
+      }
+    },
+    {
+      "name": "Get Contacts",
+      "request": {
+        "method": "GET",
+        "url": {"raw":"https://aadehcreator.github.io/portfolio/?","protocol":"http","host":["localhost"],"path":["portfolio","api","contact.php"]}
+      }
+    }
+  ]
+}

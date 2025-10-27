@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS aadesh_portfolio;
+USE aadesh_portfolio;
+
+CREATE TABLE contacts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(150) NOT NULL,
+  phone VARCHAR(20),
+  message TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
