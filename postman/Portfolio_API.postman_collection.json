@@ -7,14 +7,14 @@
         "method": "POST",
         "header": [{"key":"Content-Type","value":"application/json"}],
         "body": {"mode":"raw","raw":"{\n \"name\": \"Aadesh Rajak\",\n \"email\": \"adeshrajak890@gmail.com\",\n \"phone\": \"8109585179\",\n \"message\": \"Portfolio API test\"\n}"},
-        "url": {"raw":"https://aadehcreator.github.io/portfolio/?","protocol":"http","host":["localhost"],"path":["portfolio","api","contact.php"]}
+        "url": {"raw":"https://aadehcreator.github.io/WebdesignerAdeshRajak/","protocol":"http","host":["https://aadehcreator.github.io/WebdesignerAdeshRajak/"],"path":["portfolio","api","contact.php"]}
       }
     },
     {
       "name": "Get Contacts",
       "request": {
         "method": "GET",
-        "url": {"raw":"https://aadehcreator.github.io/portfolio/?","protocol":"http","host":["localhost"],"path":["portfolio","api","contact.php"]}
+        "url": {"raw":"https://aadehcreator.github.io/WebdesignerAdeshRajak/","protocol":"http","host":["https://aadehcreator.github.io/WebdesignerAdeshRajak/"],"path":["portfolio","api","contact.php"]}
       }
     }
   ]
