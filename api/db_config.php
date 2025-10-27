@@ -1,6 +1,6 @@
 <?php
 // api/db_config.php
-$host = 'localhost';
+$host = 'https://aadehcreator.github.io/WebdesignerAdeshRajak/';
 $db   = 'aadesh_portfolio';
 $user = 'root';
 $pass = ''; // change if needed
